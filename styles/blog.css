@@ -3,6 +3,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.font2 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .bannar {
     background-image: url(../images/Banner\ Image.png);
     width: 1320px;
@@ -28,6 +34,94 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    max-width: width: 632px;;
-    padding:0 344px 200px;
+    padding: 0 344px 200px;
+}
+
+.offer {
+    text-align: center;
+
+}
+
+.new-year-wish {
+    width: 802.9px;
+    height: 500px;
+    padding-bottom: 120px;
+}
+
+.off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+    padding-top: 120px;
+}
+
+.off-description {
+    padding-top: 0;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.off-category {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.welcoming {
+    background-image: url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    color: #070211, #07021100;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.welcoming-massage {
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.welcoming-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding-bottom: 24px;
+}
+
+.welcoming-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+.join {
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(240, 21, 6);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn1 {
+    padding-left: 158px;
+    padding-bottom: 142px;
+}
+
+.year {
+    width: 319px;
+    height: 464px;
+    padding: 68px 135px 68px 0px;
+
 }
