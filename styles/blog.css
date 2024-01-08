@@ -1,0 +1,33 @@
+.font1 {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bannar {
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    /* color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    margin: 50px auto;
+    background-color: #070211, #07021100;
+
+}
+
+.bannar-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.bannar-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    max-width: width: 632px;;
+    padding:0 344px 200px;
+}
