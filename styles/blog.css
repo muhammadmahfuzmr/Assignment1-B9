@@ -14,7 +14,6 @@
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    /* color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     margin: 50px auto;
     background-color: #070211, #07021100;
 
@@ -117,6 +116,8 @@
     background-color: rgb(240, 21, 6);
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    padding: 16px 30px;
 
 }
 
@@ -125,9 +126,112 @@
     padding-bottom: 142px;
 }
 
-.year {
+.year-pic {
     width: 319px;
     height: 464px;
     padding: 68px 135px 68px 0px;
 
+}
+
+.event-time {
+    width: 1340px;
+    height: 482px;
+    flex-shrink: 0;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px auto;
+    border-radius: 10px;
+}
+
+.schadule {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    list-style: none;
+    padding: 100px 385px 0;
+    margin-bottom: 0;
+
+}
+
+.red {
+    color: #F00;
+}
+
+ul li span {
+    margin: 0;
+
+}
+
+.btn2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 48px;
+}
+
+.best-offer {
+    display: flex;
+    width: 1600px;
+    height: 465px;
+    background: #FFF;
+    margin: 0 auto 120px;
+}
+
+.offer-time {
+    padding: 104px 20px 0 140px;
+    width: 420px;
+
+}
+
+.new-offer {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 16px;
+}
+
+.new-offer-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 0 20px;
+}
+
+.offer-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.celebration {
+    padding: 30px;
+    border: 10px solid red;
+    border-radius: 100%;
+    height: 460px;
+}
+.new-year{
+    background-image: url(../images/Group\ 96.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-left: 60px;
+    margin-right: 0;
+    
+}
+.year {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 110px;
+    margin-bottom: 16px;
+}
+
+.year-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 290px;
 }
