@@ -8,12 +8,11 @@
 }
 
 .bannar {
-    background-image: url(../images/Banner\ Image.png);
+    background-image: url('../images/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     margin: 50px auto;
-    background-color: #070211, #07021100;
 
 }
 
@@ -74,7 +73,7 @@
 }
 
 .welcoming {
-    background-image: url(../images/Vectorrr.png);
+    background-image: url('../images/Vectorrr.png');
     width: 1320px;
     height: 600px;
     color: #070211, #07021100;
@@ -211,7 +210,7 @@ ul li span {
 }
 
 .new-year {
-    background-image: url(../images/Group\ 96.png);
+    background-image: url('../images/Group\ 96.png');
     background-repeat: no-repeat;
     background-position: bottom left;
     margin-left: 80px;
@@ -274,6 +273,64 @@ ul li span {
 
 }
 
+.subscribe-container {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    text-align: center;
+
+}
+
+.massage {
+    padding: 80px 0 40px;
+    margin: 0;
+}
+
+.subscribe-heading {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.subscribe-discription {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0 280px 45px;
+    margin: 0;
+}
+
+.msg-input {
+    gap: 0;
+    padding: 0 auto;
+}
+
+.email {
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 250px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.subscribe-button {
+    border: none;
+    padding-right: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 55px;
+}
+
 .page-footer {
     width: 100%;
     height: 700px;
@@ -295,8 +352,8 @@ hr {
     width: 1600px;
     height: 1px;
     color: rgba(255, 255, 255, 0.15);
-    
-    
+
+
 }
 
 .social-media {
