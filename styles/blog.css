@@ -324,8 +324,10 @@ ul li span {
     margin: 0;
     padding-bottom: 45px;
 }
-
-.gift {
+.gift:hover{
+    background-color: rgb(14, 1, 22);
+}
+.gift { 
     width: 420px;
     height: 450px;
     margin: 0 17.34px 16px 0;
